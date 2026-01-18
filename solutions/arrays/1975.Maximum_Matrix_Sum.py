@@ -14,5 +14,5 @@ class Solution:
 
         if neg_count % 2 == 1:
             total -= 2 * min_abs
-
+            
         return total
