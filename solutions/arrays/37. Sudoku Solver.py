@@ -17,7 +17,7 @@ class Solution:
                     rows[i].add(ch)
                     cols[j].add(ch)
                     boxes[(i // 3) * 3 + (j // 3)].add(ch)
-
+                    
         def backtrack(idx):
             if idx == len(empties):
                 return True  # Solved
