@@ -5,7 +5,7 @@ class Solution:
     rows,cols = len(grid), len(grid[0])
     visited = set()
     island = 0
-
+    
     def dfs(r,c):
       if (r < 0 or r >= rows or c < 0 or c >= cols or grid[r][c] == '0' or (r,c) in visited):
         return
@@ -25,3 +25,4 @@ class Solution:
 
 
 #Most important queston it was asked in Snabbit Exam must practise this question daily 
+
