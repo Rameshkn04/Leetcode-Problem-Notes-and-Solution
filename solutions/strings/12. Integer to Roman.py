@@ -15,4 +15,3 @@ class Solution:
                 roman += syms[i]
                 num -= val[i]
         return roman
-        
