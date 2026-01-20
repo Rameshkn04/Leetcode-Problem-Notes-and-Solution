@@ -12,7 +12,7 @@ class Solution:
         level = 1
         max_sum = float('-inf')
         answer = 1
-
+        
         while q:
             level_sum = 0
             for _ in range(len(q)):
