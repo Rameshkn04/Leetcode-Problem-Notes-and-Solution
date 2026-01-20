@@ -22,7 +22,4 @@ class Solution:
           dfs(r,c)
           island += 1
     return island
-
-
 #Most important queston it was asked in Snabbit Exam must practise this question daily 
-
