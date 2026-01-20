@@ -8,7 +8,7 @@ class Solution:
     def maxProduct(self, root):
         MOD = 10**9 + 7
         self.max_product = 0
-
+        
         # Step 1: compute total sum of tree
         def totalSumDFS(node):
             if not node:
