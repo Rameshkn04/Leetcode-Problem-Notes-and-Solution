@@ -36,5 +36,3 @@ class Solution:
 
         subtreeDFS(root)
         return self.max_product % MOD
-
-        
