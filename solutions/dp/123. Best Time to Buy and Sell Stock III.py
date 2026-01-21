@@ -14,4 +14,3 @@ class Solution(object):
             sell2 = max(sell2, buy2 + p)    
 
         return sell2
-        
