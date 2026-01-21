@@ -37,5 +37,3 @@ class Solution:
                         dp[i] = min(dp[i], dp[j] + 1)
 
         return dp[-1]
-
-        
