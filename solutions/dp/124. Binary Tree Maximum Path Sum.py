@@ -11,7 +11,7 @@ class Solution:
         def dfs(node):
             if not node:
                 return 0
-            
+                
             # Max contribution from left and right subtrees
             left_gain = max(0, dfs(node.left))
             right_gain = max(0, dfs(node.right))
