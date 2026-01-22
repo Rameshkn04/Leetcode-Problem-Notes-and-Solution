@@ -10,5 +10,3 @@ class Solution:
             if j == m:
                 return i
         return -1
-
-        
