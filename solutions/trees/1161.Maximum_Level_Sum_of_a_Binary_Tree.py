@@ -30,5 +30,3 @@ class Solution:
             level += 1
 
         return answer
-
-        
