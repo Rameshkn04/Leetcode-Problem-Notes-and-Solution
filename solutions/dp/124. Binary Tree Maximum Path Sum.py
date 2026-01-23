@@ -27,5 +27,3 @@ class Solution:
         
         dfs(root)
         return self.max_sum
-
-        
