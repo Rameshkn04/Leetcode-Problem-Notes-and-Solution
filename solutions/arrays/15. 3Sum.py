@@ -21,7 +21,6 @@ class Solution:
                         l += 1
                     while l < r and nums[r] == nums[r-1]:
                         r -= 1
-
                     l += 1
                     r -= 1
         return res 
