@@ -4,7 +4,7 @@ class Solution:
         right = len(height) - 1
         maxarea = 0
         while left < right:
-
+ 
             width = right - left
             area = min(height[left],height[right]) * width
             maxarea = max(area,maxarea)
