@@ -12,7 +12,7 @@ class Solution:
                     q.append((r,c))
                 elif grid[r][c] == 1:
                     fresh += 1
-        
+         
         if fresh == 0:
             return 0
         
