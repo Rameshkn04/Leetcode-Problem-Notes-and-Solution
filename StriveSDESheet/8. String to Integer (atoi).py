@@ -8,7 +8,7 @@ class Solution:
         #skip leading spaces
         while i < n and s[i] == " ":
             i += 1
-        
+         
         #Step 2 Sign
         if i < n and (s[i] == '+' or s[i] == "-"):
             sign = -1 if s[i] == '-' else 1
