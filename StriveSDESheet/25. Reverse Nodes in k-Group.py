@@ -10,7 +10,7 @@ class Solution:
         while node and count < k:
             node = node.next
             count += 1
-        
+         
         if count == k:
             prev = self.reverseKGroup(node,k)
             current = head
