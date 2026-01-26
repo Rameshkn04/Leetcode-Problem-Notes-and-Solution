@@ -12,5 +12,5 @@ class Solution:
             else:
                 # opening bracket
                 stack.append(ch)
-
+ 
         return not stack
