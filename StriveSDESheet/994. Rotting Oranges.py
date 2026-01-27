@@ -23,7 +23,6 @@ class Solution:
         while q and fresh > 0:
             for _ in range(len(q)):
                 r,c = q.popleft()
-
                 for dr, dc in directions:
                     nr, nc = r+dr, c + dc
                     if 0 <= nr < rows and 0 <= nc < cols and grid[nr][nc] == 1:
