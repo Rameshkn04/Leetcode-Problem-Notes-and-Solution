@@ -13,7 +13,7 @@ class Solution:
         if i < n and (s[i] == '+' or s[i] == "-"):
             sign = -1 if s[i] == '-' else 1
             i += 1
-        
+         
         #convert to digits
         while i < n and s[i].isdigit():
             num = num * 10 + (ord(s[i]) - ord('0'))
