@@ -22,6 +22,6 @@ class Solution:
                 return -2**31
             if sign * num >= 2**31 - 1:
                 return 2**31 - 1
-            
+             
             i += 1
         return sign* num
