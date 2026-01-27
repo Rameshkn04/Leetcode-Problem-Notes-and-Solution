@@ -11,7 +11,7 @@ class Solution:
         }
         total = 0
         n = len(s)
- 
+  
         for i in range(n):
             if i + 1 < n and roman[s[i]] < roman[s[i+1]]:
                 total -= roman[s[i]]
