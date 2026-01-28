@@ -28,4 +28,3 @@ class Solution:
 
         inorder(root)
         self.first.val, self.second.val = self.second.val, self.first.val
-        
