@@ -22,3 +22,4 @@ class Solution:
                 count -= 1
             return prev
         return head
+        
